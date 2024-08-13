@@ -1,9 +1,9 @@
-package gavrik;
+package part1;
 
 import java.util.Scanner;
 
 
-public class Main {
+public class Main13 {
     public static void main(String[] args) {
         int age = readInput();
         String result = "";

@@ -3,12 +3,12 @@ package part1;
 import java.util.Scanner;
 
 
-public class Main1 {
+public class Main2 {
     public static void main(String[] args) {
         int n = readInput();
         boolean result = false;
 
-        result = (n % 2 != 0) && (n % 7 == 0);
+        result = (n % 2 == 0) && (n % 6 == 0);
 
         System.out.println(result);
     }

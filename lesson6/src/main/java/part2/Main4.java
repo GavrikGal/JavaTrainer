@@ -17,6 +17,7 @@ public class Main4 {
         System.out.println(result);
     }
 
+
     public static String moveItems(int n, List<Integer> items) {
         for (int i = 0; i < n; i++) {
             // На Stepik старая Java и removeFist() еще не знает
@@ -32,6 +33,7 @@ public class Main4 {
                 .map(Object::toString)
                 .collect(Collectors.joining(", "));
     }
+
 
     public static Pair<Integer, List<Integer>> readInput() {
         Scanner scanner = new Scanner(System.in);
